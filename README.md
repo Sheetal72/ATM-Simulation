@@ -212,11 +212,11 @@ ATM\_Simulation/
 
 
 
-***1.** Java JDK installed.
+**1.** Java JDK installed.
 
-***2.** VS Code or another Java-supported IDE.
+**2.** VS Code or another Java-supported IDE.
 
-***3.** Windows operating system or a compatible terminal.
+**3.** Windows operating system or a compatible terminal.
 
 
 
@@ -256,7 +256,7 @@ javac -d out src\\\*.java
 
 
 
-\### Step 4: Run the Application
+### Step 4: Run the Application
 
 
 
@@ -302,12 +302,12 @@ The application uses two CSV files:
 
 
 
-***1.** Add an admin dashboard.
+**1.** Add an admin dashboard.
 
-***2.** Generate downloadable transaction statements.
+**2.** Generate downloadable transaction statements.
 
-***3.** Improve input validation and error handling.
+**3.** Improve input validation and error handling.
 
-***4.** Introduce a database such as MySQL.
+**4.** Introduce a database such as MySQL.
 
-***5.** Improve application security.
+**5.** Improve application security.
