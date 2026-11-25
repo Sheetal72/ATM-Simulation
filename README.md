@@ -1,8 +1,8 @@
-\ ATM Simulation System
+# ATM Simulation System
 
 
 
-\## Introduction
+## Introduction
 
 
 
@@ -18,7 +18,7 @@ Account and transaction information is stored in CSV files using Java file handl
 
 
 
-\## Objectives
+## Objectives
 
 
 
@@ -26,23 +26,23 @@ The main objectives of this project are:
 
 
 
-\* To develop a simple ATM simulation using Java.
+1. To develop a simple ATM simulation using Java.
 
-\* To understand Object-Oriented Programming concepts.
+2. To understand Object-Oriented Programming concepts.
 
-\* To implement a graphical user interface using Java Swing.
+3. To implement a graphical user interface using Java Swing.
 
-\* To perform file handling operations using CSV files.
+4. To perform file handling operations using CSV files.
 
-\* To provide basic banking operations.
+5. To provide basic banking operations.
 
-\* To maintain transaction records.
+6. To maintain transaction records.
 
-\* To understand the interaction between different Java classes.
+7. To understand the interaction between different Java classes.
 
 
 
-\## Features
+## Features
 
 
 
