@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="dashboard-container">
+
+        <h1>ATM Dashboard</h1>
+        <p id="welcomeMessage">Welcome to your ATM account</p>
+
+        <div class="dashboard-grid">
+
+            <button onclick="checkBalance()">Check Balance</button>
+
+            <button onclick="depositMoney()">Deposit Money</button>
+
+            <button onclick="withdrawMoney()">Withdraw Money</button>
+
+            <button onclick="miniStatement()">Mini Statement</button>
+
+            <button onclick="changePin()">Change PIN</button>
+
+            <button onclick="logout()">Logout</button>
+
+        </div>
+
+        <div id="result"></div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
