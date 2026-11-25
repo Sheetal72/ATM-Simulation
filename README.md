@@ -46,25 +46,25 @@ The main objectives of this project are:
 
 
 
-\* \*\*User Login:\*\* Login using account number and PIN.
+***User Login:** Login using account number and PIN.
 
-\* \*\*Check Balance:\*\* Display the current account balance.
+***Check Balance:** Display the current account balance.
 
-\* \*\*Deposit Money:\*\* Add money to an account.
+***Deposit Money:** Add money to an account.
 
-\* \*\*Withdraw Money:\*\* Withdraw money from an account after balance validation.
+***Withdraw Money:** Withdraw money from an account after balance validation.
 
-\* \*\*Mini Statement:\*\* View recent transaction details.
+***Mini Statement:** View recent transaction details.
 
-\* \*\*Change PIN:\*\* Update the account PIN.
+***Change PIN:** Update the account PIN.
 
-\* \*\*Logout:\*\* Exit the user dashboard safely.
+***Logout:** Exit the user dashboard safely.
 
-\* \*\*CSV Storage:\*\* Store account and transaction information in CSV files.
+***CSV Storage:** Store account and transaction information in CSV files.
 
 
 
-\## Technologies Used
+## Technologies Used
 
 
 
@@ -90,11 +90,11 @@ The main objectives of this project are:
 
 
 
-\## Project Modules
+## Project Modules
 
 
 
-\### Main Module
+### Main Module
 
 
 
@@ -102,7 +102,7 @@ Starts the ATM application and opens the login screen.
 
 
 
-\### Account Module
+### Account Module
 
 
 
@@ -110,7 +110,7 @@ Stores account information such as account number, customer name, PIN, and balan
 
 
 
-\### CSV Manager Module
+### CSV Manager Module
 
 
 
@@ -118,7 +118,7 @@ Reads account records, updates account details, and manages transaction data usi
 
 
 
-\### ATM Service Module
+### ATM Service Module
 
 
 
@@ -126,7 +126,7 @@ Contains the main ATM operations, including login, balance checking, deposits, w
 
 
 
-\### Login Module
+### Login Module
 
 
 
@@ -134,7 +134,7 @@ Provides the login interface and validates account credentials.
 
 
 
-\### Dashboard Module
+### Dashboard Module
 
 
 
@@ -142,7 +142,7 @@ Displays the available ATM operations after successful login.
 
 
 
-\### Mini Statement Module
+### Mini Statement Module
 
 
 
@@ -150,7 +150,7 @@ Displays the transaction history of the logged-in account.
 
 
 
-\### Change PIN Module
+### Change PIN Module
 
 
 
@@ -158,7 +158,7 @@ Allows users to change their existing PIN.
 
 
 
-\## Project Structure
+## Project Structure
 
 
 
@@ -204,23 +204,23 @@ ATM\_Simulation/
 
 
 
-\## Execution Steps
+## Execution Steps
 
 
 
-\### Prerequisites
+### Prerequisites
 
 
 
-\* Java JDK installed.
+***1.** Java JDK installed.
 
-\* VS Code or another Java-supported IDE.
+***2.** VS Code or another Java-supported IDE.
 
-\* Windows operating system or a compatible terminal.
+***3.** Windows operating system or a compatible terminal.
 
 
 
-\### Step 1: Clone the Repository
+### Step 1: Clone the Repository
 
 
 
@@ -232,7 +232,7 @@ git clone YOUR\_GITHUB\_REPOSITORY\_URL
 
 
 
-\### Step 2: Open the Project
+### Step 2: Open the Project
 
 
 
@@ -240,7 +240,7 @@ Open the ATM\_Simulation folder in VS Code.
 
 
 
-\### Step 3: Compile the Java Files
+### Step 3: Compile the Java Files
 
 
 
@@ -268,7 +268,7 @@ java -cp out Main
 
 
 
-\### Step 5: Login
+### Step 5: Login
 
 
 
@@ -276,7 +276,7 @@ Enter a valid account number and PIN from the sample account dataset.
 
 
 
-\### Step 6: Perform ATM Operations
+### Step 6: Perform ATM Operations
 
 
 
@@ -284,7 +284,7 @@ After successful login, use the dashboard to access the available ATM operations
 
 
 
-\## Data Storage
+## Data Storage
 
 
 
@@ -292,25 +292,22 @@ The application uses two CSV files:
 
 
 
-\* \*\*accounts.csv:\*\* Stores account number, customer name, PIN, and account balance.
+***accounts.csv:** Stores account number, customer name, PIN, and account balance.
 
-\* \*\*transactions.csv:\*\* Stores transaction ID, account number, transaction type, amount, and date.
-
-
-
-\## Future Enhancements
+***transactions.csv:** Stores transaction ID, account number, transaction type, amount, and date.
 
 
 
-\* Add an admin dashboard.
-
-\* Generate downloadable transaction statements.
-
-\* Improve input validation and error handling.
-
-\* Introduce a database such as MySQL.
-
-\* Improve application security.
+## Future Enhancements
 
 
 
+***1.** Add an admin dashboard.
+
+***2.** Generate downloadable transaction statements.
+
+***3.** Improve input validation and error handling.
+
+***4.** Introduce a database such as MySQL.
+
+***5.** Improve application security.
